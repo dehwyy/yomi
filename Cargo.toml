@@ -1,6 +1,11 @@
 [package]
+description = "Simple CLI builder."
 edition = "2021"
+keywords = ["cli", "command", "builder", "yomi"]
+license = "MIT"
 name = "yomi"
+readme = "README.md"
+repository = "https://github.com/dehwyy/yomi"
 version = "0.1.0"
 
 [dependencies]
