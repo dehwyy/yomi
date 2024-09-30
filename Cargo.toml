@@ -1,4 +1,5 @@
 [package]
+authors = ["dehwyy <dehwyyy@gmail.com>"]
 description = "Simple CLI builder."
 edition = "2021"
 keywords = ["cli", "command", "builder", "yomi"]
