@@ -1,13 +1,13 @@
 [package]
 authors = ["dehwyy <dehwyyy@gmail.com>"]
-description = "Simple CLI builder."
+description = "Simple styled CLI builder and terminal command executor."
 edition = "2021"
-keywords = ["cli", "command", "builder", "yomi"]
+keywords = ["cli", "yomi"]
 license = "MIT"
 name = "yomi"
 readme = "README.md"
 repository = "https://github.com/dehwyy/yomi"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
 clap = {version = "4.5.0", features = ["derive"]}
