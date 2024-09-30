@@ -2,7 +2,7 @@ use super::core::animation::{Animation, Process};
 
 #[tokio::test]
 async fn invoke_sequentially() {
-    let mut animation = Animation::builder();
+    let animation = Animation::builder();
     animation
         .add(
             Process::new(async {
@@ -16,7 +16,7 @@ async fn invoke_sequentially() {
 
 #[tokio::test]
 async fn invoke_concurrently() {
-    let mut animation = Animation::builder();
+    let animation = Animation::builder();
     animation
         .add(
             Process::new(async {
